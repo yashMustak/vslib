@@ -1,6 +1,6 @@
 #include<iostream>
-#include"Tree.hpp"
-#include "stack.hpp"
+#include"../vslib/Tree.hpp"
+#include "..vslib/stack.hpp"
 using namespace std;
 using namespace vip;
 
