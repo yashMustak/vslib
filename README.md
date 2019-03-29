@@ -41,21 +41,21 @@
 3.  **Splay Tree**: This component helps to create an Splay tree same as previous, it also supports described data types. Presently only insert and print are implemented.
 
 4.  **Singly Linked List**: This component helps to create Singly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
-   * insert(<value>)
-   * deleteNodeByValue(<value>)
-   * valueExist(<value>)
+   * insert(< value >)
+   * deleteNodeByValue(< value >)
+   * valueExist(< value >)
    * isEmpty()
    * print()
  
 5.  **Doubly Linked List**: This component helps to create Doubly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
-   * insert(<value>)
-   * deleteNodeByValue(<value>)
-   * valueExist(<value>)
+   * insert(< value >)
+   * deleteNodeByValue(< value >)
+   * valueExist(< value >)
    * deleteLast()
    * print()
-   * [<index>] : Operator to access element using index.
+   * [< index >] : Operator to access element using index.
 
 6.  **Stack**: This component helps to create stacks. Both direct and inderect mode of stacks are available for this. following are the available functions regarding stacks:
-   * push(<value or pointer>)
+   * push(< value or pointer >)
    * pop()
    * isEmpty()
