@@ -21,8 +21,7 @@
     * Funcion
   
   It provides 2 ways to create a tree:
-  
-    1. Direct: Directly provide the value.
-    2. Inderect: Insert Pointer to the value.
+    1.   Direct: Directly provide the value.
+    2.   Inderect: Insert Pointer to the value.
 
 2.  **AVL Trees**:
