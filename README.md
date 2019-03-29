@@ -1,9 +1,9 @@
 # ~~vslib~~ DsLib
 
-###General purpose Data Structures Library
+### General purpose Data Structures Library
 --------------------------------------------------------------------------------------------------------------------------------------
 
-###Components
+### Components
 1.  **Multiway Trees**: This component is helpful in creating multiway trees for various data types in c++. Supported data types given below.
     * Object
     * Structure
