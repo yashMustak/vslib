@@ -35,6 +35,26 @@
    * toSibling() : Makes right sibling of current node as new current node.
    * toRoot() : Makes root of tree as new current node.
    * print() : Prints the tree in preorder.
+   
+   Example:
+   ```Tree<int> mytree;
+	mytree.insert(1);
+	mytree.toRoot();
+	mytree.insert(2);
+	mytree.insert(3);
+	mytree.insert(4);
+	mytree.insert(3);
+	mytree.insert(5);
+	mytree.toChild(4);
+	mytree.insert(9);
+	mytree.insert(10);
+	mytree.toSibling();
+	mytree.insert(12);
+	mytree.print();
+	mytree.deleteByValue(3, 2);
+	cout<<endl;
+	mytree.print();
+   ```
 
 2.  **AVL Trees**: This component helps to create an AVL tree same as previous, it also supports described data types. Presently only insert and print are implemented.
 
@@ -46,6 +66,21 @@
    * valueExist(< value >)
    * isEmpty()
    * print()
+   
+   Example:
+   ```SinglyLinkedList<int> list;
+	list.insert(10);
+	list.insert(11);
+	list.insert(12);
+	list.print();
+	cout<<endl;
+	list.deleteNodeByValue(11);
+	list.print();
+	cout<<endl;
+	cout.setf(ios::boolalpha);
+	cout<<"Q. 10 Exists?: "<<list.valueExist(10)<<endl;
+	cout<<"Q. 11 Exists?: "<<list.valueExist(11)<<endl;
+   ```
  
 5.  **Doubly Linked List**: This component helps to create Doubly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
    * insert(< value >)
@@ -54,8 +89,42 @@
    * deleteLast()
    * print()
    * [< index >] : Operator to access element using index.
+   
+   Example:
+   ```DoublyLinkedList<int> list;
+	list.insert(10);
+	list.insert(11);
+	list.insert(12);
+	list.print();
+	cout<<endl;
+	list.deleteNodeByValue(11);
+	list.print();
+	cout<<endl;
+	cout.setf(ios::boolalpha);
+	cout<<"Q. 10 Exists?: "<<list.valueExist(10)<<endl;
+	cout<<"Q. 11 Exists?: "<<list.valueExist(11)<<endl;
+   ```
 
 6.  **Stack**: This component helps to create stacks. Both direct and inderect mode of stacks are available for this. following are the available functions regarding stacks:
    * push(< value or pointer >)
    * pop()
    * isEmpty()
+   
+   Example:
+   ```vip::stack<int> mystack;
+	mystack.push(1);
+	cout<<"pushed 1"<<endl;
+	mystack.push(3);
+	cout<<"pushed 3"<<endl;
+	mystack.push(5);
+	cout<<"pushed 5"<<endl;
+	cout<<mystack.pop()<<endl;
+	cout<<mystack.pop()<<endl;
+	cout<<mystack.pop()<<endl;
+	mystack.push(9);
+	int val = 10;
+	mystack.push(&val);
+	cout<<"pushed 10 with reference"<<endl;
+	cout<<mystack.pop()<<endl;
+	cout<<mystack.pop()<<endl;
+   ```
