@@ -17,13 +17,14 @@
     * Integer
     * Long
     * Short
+    * Boolean
     * Pointer
     * Funcion
   
    It provides 2 ways to create a tree:
    
       1. Direct: Directly provide the value.
-      2. Inderect: Insert Pointer to the value.
+      2. Indirect: Insert Pointer to the value.
    
    To create tree first include the Tree.hpp file in the program then create one using Tree<<Data Type>> <name of Tree> eg. ```Tree<int> myTree```. After this use following to play with your tree:
    * insert(<value or pointer>) : Insert the value to tree at the current node.
@@ -35,4 +36,26 @@
    * toRoot() : Makes root of tree as new current node.
    * print() : Prints the tree in preorder.
 
-2.  **AVL Trees**:
+2.  **AVL Trees**: This component helps to create an AVL tree same as previous, it also supports described data types. Presently only insert and print are implemented.
+
+3.  **Splay Tree**: This component helps to create an Splay tree same as previous, it also supports described data types. Presently only insert and print are implemented.
+
+4.  **Singly Linked List**: This component helps to create Singly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
+   * insert(<value>)
+   * deleteNodeByValue(<value>)
+   * valueExist(<value>)
+   * isEmpty()
+   * print()
+ 
+5.  **Doubly Linked List**: This component helps to create Doubly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
+   * insert(<value>)
+   * deleteNodeByValue(<value>)
+   * valueExist(<value>)
+   * deleteLast()
+   * print()
+   * [<index>] : Operator to access element using index.
+
+6.  **Stack**: This component helps to create stacks. Both direct and inderect mode of stacks are available for this. following are the available functions regarding stacks:
+   * push(<value or pointer>)
+   * pop()
+   * isEmpty()
