@@ -37,7 +37,8 @@
    * print() : Prints the tree in preorder.
    
    Example:
-   ```Tree<int> mytree;
+   ```
+   Tree<int> mytree;
 	mytree.insert(1);
 	mytree.toRoot();
 	mytree.insert(2);
@@ -68,7 +69,8 @@
    * print()
    
    Example:
-   ```SinglyLinkedList<int> list;
+   ```
+   SinglyLinkedList<int> list;
 	list.insert(10);
 	list.insert(11);
 	list.insert(12);
@@ -91,7 +93,8 @@
    * [< index >] : Operator to access element using index.
    
    Example:
-   ```DoublyLinkedList<int> list;
+   ```
+   DoublyLinkedList<int> list;
 	list.insert(10);
 	list.insert(11);
 	list.insert(12);
@@ -111,7 +114,8 @@
    * isEmpty()
    
    Example:
-   ```vip::stack<int> mystack;
+   ```
+   vip::stack<int> mystack;
 	mystack.push(1);
 	cout<<"pushed 1"<<endl;
 	mystack.push(3);
