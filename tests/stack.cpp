@@ -18,8 +18,8 @@ int main(){
 	cout<<mystack.pop()<<endl;
 	//cout<<mystack.pop()<<endl;
 	mystack.push(9);
-	int yash = 10;
-	mystack.push(&yash);
+	int val = 10;
+	mystack.push(&val);
 	cout<<"pushed 10 with reference"<<endl;
 	cout<<mystack.pop()<<endl;
 	cout<<mystack.pop()<<endl; //this will give random value (problem is highlited in stack file)
