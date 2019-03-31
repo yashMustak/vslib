@@ -4,7 +4,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ### Components
-1.  **Multiway Trees**: This component is helpful in creating multiway trees for various data types in c++. Supported data types given are below.
+1.  ```**Multiway Trees**```: This component is helpful in creating multiway trees for various data types in c++. Supported data types given are below.
 
     * Object
     * Structure
