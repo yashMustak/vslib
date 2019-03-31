@@ -4,7 +4,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ### Components
-**1.  ```Multiway Trees```**: This component is helpful in creating multiway trees for various data types in c++. Supported data types given are below.
+**1.  ```Multiway Trees:```** This component is helpful in creating multiway trees for various data types in c++. Supported data types given are below.
 
     * Object
     * Structure
@@ -57,11 +57,11 @@
 	mytree.print();
    ```
 
-**2.  ```AVL Trees```**: This component helps to create an AVL tree same as previous, it also supports described data types. Presently only insert and print are implemented.
+**2.  ```AVL Trees:```** This component helps to create an AVL tree same as previous, it also supports described data types. Presently only insert and print are implemented.
 
-**3.  ```Splay Tree```**: This component helps to create an Splay tree same as previous, it also supports described data types. Presently only insert and print are implemented.
+**3.  ```Splay Tree:```** This component helps to create an Splay tree same as previous, it also supports described data types. Presently only insert and print are implemented.
 
-**4.  ```Singly Linked List```**: This component helps to create Singly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
+**4.  ```Singly Linked List:```** This component helps to create Singly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
    * insert(< value >)
    * deleteNodeByValue(< value >)
    * valueExist(< value >)
@@ -84,7 +84,7 @@
 	cout<<"Q. 11 Exists?: "<<list.valueExist(11)<<endl;
    ```
  
-**5.  ```Doubly Linked List```**: This component helps to create Doubly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
+**5.  ```Doubly Linked List:```** This component helps to create Doubly linked list. Presently it only support direct insertion (Pointer insertion is unavailable, which reduces data type list to Char, String, Int, Bouble, Float, Boolean). It provides various functions to play with it as listed below.
    * insert(< value >)
    * deleteNodeByValue(< value >)
    * valueExist(< value >)
@@ -108,7 +108,7 @@
 	cout<<"Q. 11 Exists?: "<<list.valueExist(11)<<endl;
    ```
 
-**6.  ```Stack```**: This component helps to create stacks. Both direct and inderect mode of stacks are available for this. following are the available functions regarding stacks:
+**6.  ```Stack:```** This component helps to create stacks. Both direct and inderect mode of stacks are available for this. following are the available functions regarding stacks:
    * push(< value or pointer >)
    * pop()
    * isEmpty()
