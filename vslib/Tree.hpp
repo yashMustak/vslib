@@ -46,3 +46,4 @@ namespace dslib {
 			void toSibling();
 	};	
 }
+#endif
