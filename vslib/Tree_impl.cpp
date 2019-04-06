@@ -1,3 +1,5 @@
+#include "Tree.hpp"
+
 template<class T>
 dslib::Tree<T>::Tree(){
 	head = NULL;
@@ -271,5 +273,3 @@ void dslib::Tree<T>::print (void (&nodePrint)(T* nodeData)) {
 		}
 	}
 }
-
-#endif
