@@ -6,7 +6,7 @@
 
 using namespace std;
 
-namespace vip {
+namespace dslib {
 	template<class T>
 	class DoublyLinkedList;
 }
