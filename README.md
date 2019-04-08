@@ -1,6 +1,6 @@
 # ~~vslib~~ DsLib
 
-### General purpose Data Structures Library
+### General purpose Data Structures code compilation.
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ### Components
