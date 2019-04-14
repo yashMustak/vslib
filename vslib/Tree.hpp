@@ -45,5 +45,7 @@ namespace dslib {
 			void toRoot();
 			void toSibling();
 	};	
-}
+
+} 
+#include 'Tree_impl.hpp'
 #endif
