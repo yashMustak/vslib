@@ -1,7 +1,7 @@
 # ~~vslib~~ DsLib
-###### Contributers: [Yash Srivastava](https://www.github.com/yashMustak), [Vipul Sharma](https://www.github.com/thevipulsharma)
 
 ### General purpose Data Structures code compilation.
+###### Contributers: [Yash Srivastava](https://www.github.com/yashMustak), [Vipul Sharma](https://www.github.com/thevipulsharma)
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ### Components
