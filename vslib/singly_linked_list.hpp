@@ -28,5 +28,5 @@ public:
 	bool isEmpty();
 	//void deleteByReference()
 };
-
+#inclide 'singly_linked_list_impl.hpp'
 #endif
