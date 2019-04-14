@@ -36,4 +36,5 @@ public:
 	//firstReference
 	//iterators
 };
+#include 'doubly_linked_list_impl.hpp'
 #endif
