@@ -6,7 +6,7 @@ using namespace std;
 
 namespace vip{
 	template<class T>
-	class tree_avl{
+	class AVL{
 		private:
 			struct node{
 				T data;
