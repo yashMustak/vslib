@@ -6,7 +6,7 @@ using namespace std;
 
 namespace vip{
 	template<class T>
-	class splayTree{
+	class SplayTree{
 		private:
 			struct node{
 				T data;
@@ -257,7 +257,7 @@ namespace vip{
 				printPreOrder(base->rightChild);
 			}
 		public:
-			splayTree(){
+			SplayTree(){
 				root = NULL;
 			}
 			
