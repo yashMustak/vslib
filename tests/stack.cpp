@@ -6,7 +6,7 @@ using namespace vip;
 
 int main(){
 
-	vip::stack<int> mystack;
+	vip::Stack<int> mystack;
 	mystack.push(1);
 	cout<<"pushed 1"<<endl;
 	mystack.push(3);
